@@ -1,0 +1,4 @@
+{
+  "python.analysis.extraPaths": ["./app"],
+  "python.venvPath": "~/.cache/pypoetry/virtualenvs/"
+}
