@@ -4,7 +4,7 @@ from config.database import Base
 
 
 class FooItem(Base):
-    __tablename__ = "users"
+    __tablename__ = "foo_items"
 
     id = Column(Integer, primary_key=True, index=True)
     description = Column(String)
