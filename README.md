@@ -1,4 +1,6 @@
-# fastapi service patterns
+# Abstracting FastAPI Services
+
+See this article for more information: <https://camillovisini.com/article/abstracting-fastapi-services/>
 
 ## Poetry
 
