@@ -5,8 +5,8 @@ test:
 	poetry run pytest
 
 create-items:
-	curl -X POST localhost:8000/foo/item/   --data '{"description":"some item description", "public":false}' && echo
-	curl -X POST localhost:8000/foo/item/   --data '{"description":"some item description", "public":true}'
+	curl -X POST localhost:8000/foo/item/ -H 'Content-Type: application/json' --data '{"description":"some item description", "public":false}' && echo
+	curl -X POST localhost:8000/foo/item/ -H 'Content-Type: application/json' --data '{"description":"some item description", "public":true}'
 
 get-items:
 	curl -X GET localhost:8000/foo/item/1 && echo
